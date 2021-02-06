@@ -15,9 +15,10 @@ Lista = []
 def Recursividade(contador = 0)
     puts "Thiago"
     Lista[Lista.length] = contador
-    return if contador === 10
+    return if contador === 5
     Recursividade(contador+=1)
 end
 
 Recursividade()
 puts Lista.class
+puts Lista
