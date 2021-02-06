@@ -1,4 +1,5 @@
-# Exercício: Crie um programa que receba dois nomes e os imprimam em uma única frase
+#
+Exercício: Crie um programa que receba dois nomes e os imprimam em uma única frase
 
 print 'Digite seu nome'
 
