@@ -41,3 +41,45 @@ puts ("Olá #{dados["nome"]} #{dados["sobrenome"]}! Você tem #{dados["Idade"]} 
 
 dados[:altura] = "1.78"
 puts(dados[:altura])
+
+# Podemos ainda utilizar numeros inteiros representando uma chave de um hash
+
+dados[dados.length] = 13 
+# Utilizei length para quantificar o numero de itens dentro da hash e atribui seu valor para que fosse o valor da chave
+
+puts dados
+
+# Podemos converter uma chave de um hash que está como uma string para um simbolo usando to_sym
+
+# Exercicio: Coletando dados via hash e enviando para um array
+
+loop do
+
+    alunos = []
+    aluno = {}
+
+    puts "Digite 0 para sair ou 1 para permanescer"
+    continuar = gets.to_i
+    
+    break if (continuar == 0)
+
+    loop do
+        puts "Deseja inserir novos alunos? 1 para sim, 0 para não"
+        inserir = gets.to_i
+
+        if (inserir == 0) 
+            # Para utilizarmos condicionais que comparam com inteiros, devemos converter dados para inteiros antes de podermos utilizá-los 
+            break
+        else
+            puts "Digite o nome do aluno"
+            aluno[:nome] = gets.delete("\n")
+
+            puts "Digite o RA do aluno"
+            aluno[:RA] = gets.delete("\n")
+
+            puts "Digite o curso do aluno"
+            aluno[:curso] = gets.delete("\n")
+        end
+    end
+    puts alunos
+end
