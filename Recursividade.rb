@@ -9,6 +9,7 @@
 
 require 'byebug' # O byebug permite que nos possamos ver onde está o erro no codigo
 require 'rails'
+require 'selenium'
 
 Lista = []
 
