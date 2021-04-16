@@ -77,7 +77,7 @@ when "Abril" || "Maio" || "Junho"
 when "Julho" || "Agosto" || "Setembro"
     puts "Você nasceu no terceiro quarto do ano"
 when "Outubro" || "Novembro" || "Dezembro"
-    puts "Você nasceu no fim do ano"    
+    puts "Você nasceu no fim do ano"
 else
     puts "Não entendi"
 end

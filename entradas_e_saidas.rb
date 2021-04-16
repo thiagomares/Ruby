@@ -16,7 +16,7 @@
     
 =end
 
-print 'Digite seu nome'
+puts 'Digite seu nome'
 
 nome = gets.chomp
 
