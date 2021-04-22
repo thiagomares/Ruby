@@ -1,7 +1,7 @@
 class Classe < Interface
-  def Initialize; end
+  def initialize; end
 end
 
 class OutraClasse < Abstrata
-  def Initialize; end
+  def initialize; end
 end
