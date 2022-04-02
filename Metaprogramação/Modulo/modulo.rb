@@ -60,12 +60,13 @@ puts Outro.teste
 # E com isso nos podemos fazer acesso com outros várias classes e métodos, criando um namespace
 
 module Metodos
-    def UltimoTeste
-      return 'Olá Mundo'
-    end
-    def futebol
-      return 'futebol'
-    end
+  def UltimoTeste
+    'Olá Mundo'
+  end
+
+  def futebol
+    'futebol'
+  end
 end
 
 class Outro
@@ -76,7 +77,7 @@ end
 
 puts Outro.new.UltimoTeste
 
-# Podemos ainda incluir num tipo um método inteiro 
+# Podemos ainda incluir num tipo um método inteiro
 
 String.include Metodos
 futebol = 'Volei'
