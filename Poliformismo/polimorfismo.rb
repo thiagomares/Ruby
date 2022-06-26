@@ -16,6 +16,8 @@ golf = Golf.new
 carro = Carro.new
 fiesta = Fiesta.new
 
-debugger 
-
+fiesta.cor = "branco"
+carro.modelo = "Fiesta"
+fiesta.modelo = 'Fiesta'
 fiesta.mostrar
+puts fiesta.show

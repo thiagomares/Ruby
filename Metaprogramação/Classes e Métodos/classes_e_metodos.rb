@@ -8,6 +8,8 @@
 =end
 
 
+require 'byebug'
+
 # Relembrando Eval
 class Teste
     def testado
@@ -26,8 +28,9 @@ end
 
 teste = Teste.new
 
-puts teste.testado
-Teste.outro_teste
+
+# puts teste.testado
+# teste.outro_teste
 
 # Class Eval
 Teste.class_eval do
@@ -38,7 +41,7 @@ end
 
 
 # Nos casos do class eval, precisamos da palavra new quando referenciamos algo em class eval
-puts Teste.new.mais_um_teste
+# puts Teste.new.mais_um_teste
 
 # E como todos sabemos, tudo é objeto em ruby
 a = "Insira um valor foda aqui"
@@ -47,5 +50,5 @@ def a.valor
     "insira outro valor foda aqui"
 end
 
-puts a.valor
-puts a
+# puts a.valor
+# puts a
