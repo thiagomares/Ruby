@@ -2,19 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c501fd15-94b8-4005-ac5f-413ddac93c31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Ruby.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Metaprogramação/Alias/alias.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metaprogramação/Classes e Métodos/.byebug_history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metaprogramação/Classes e Métodos/arquivo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metaprogramação/Classes e Métodos/classes_e_metodos.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metaprogramação/Classes e Métodos/methods.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metaprogramação/Dinamicos/.byebug_history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metaprogramação/Dinamicos/Dinamicos.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metaprogramação/Eval/eval.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Metaprogramação/Hooks/hooks.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Metaprogramação/Classes e Métodos/classes_e_metodos.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Metaprogramação/Classes e Métodos/classes_e_metodos.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Metaprogramação/Eval/eval.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Metaprogramação/Eval/eval.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Metaprogramação/Runtime/tempCodeRunnerFile.rb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metaprogramação/Modulo/modulo.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metaprogramação/Modulo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metaprogramação/Modulo/tempCodeRunnerFile.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metaprogramação/Runtime/.byebug_history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metaprogramação/Runtime/runtime.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Poliformismo/polimorfismo.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projetos Ruby/Criador e validador de informações/validador.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruby" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruby-Metaprograma-o-Ruby/.byebug_history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruby-Metaprograma-o-Ruby/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruby-Metaprograma-o-Ruby/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruby-Metaprograma-o-Ruby/.idea/Ruby.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruby-Metaprograma-o-Ruby/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruby-Metaprograma-o-Ruby/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruby-Metaprograma-o-Ruby/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ruby-Metaprograma-o-Ruby/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface e Abstração/.byebug_history" beforeDir="false" afterPath="$PROJECT_DIR$/Interface e Abstração/.byebug_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interface e Abstração/interfaces.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Interface e Abstração/interfaces.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Poliformismo/Fiesta.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Poliformismo/Fiesta.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Poliformismo/carro.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Poliformismo/carro.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poliformismo/poliformismo.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projetos Ruby/Projetos-Ruby/Criador e validador de informações/validador.rb" beforeDir="false" afterPath="$PROJECT_DIR$/Projetos Ruby/Projetos-Ruby/Criador e validador de informações/validador.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +63,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Meu Drive/Backup/Ruby&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/thiago/Área de Trabalho/Codigo/Ruby",
+    "ruby.rails.projectView.checked": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Ruby.alias">
     <configuration name="alias" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="Ruby" />
@@ -66,7 +84,7 @@
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Metaprogramação/Alias/alias.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
@@ -81,7 +99,7 @@
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" runner="rcov" />
       <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Metaprogramação/Classes e Métodos/classes_e_metodos.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
@@ -106,6 +124,7 @@
       <workItem from="1656002305212" duration="4005000" />
       <workItem from="1656018833249" duration="1209000" />
       <workItem from="1656106298872" duration="125000" />
+      <workItem from="1656277276563" duration="238000" />
     </task>
     <servers />
   </component>
