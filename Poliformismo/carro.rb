@@ -2,8 +2,8 @@ class Carro
 
     attr_accessor :modelo, :porta, :painel, :roda
 
-    def mostrar(marca="marca padrão")
-        "Marca  #{marca} - modelo: #{modelo}, #{algo_mais_protected}"
+    def show(marca="marca padrão")
+        "Marca #{marca} - modelo: #{modelo}, #{algo_mais_protected}"
     end
 
     private
@@ -16,5 +16,3 @@ class Carro
         "Este é um metodo para retornar uma função protegida"
     end
 end
-
-puts Carro.new.mostrar  

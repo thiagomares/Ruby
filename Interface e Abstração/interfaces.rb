@@ -20,9 +20,3 @@ Instancia = InstanciaUnica.instance.teste1
 
 puts Instancia
 puts InstanciaUnica.new
-
-variavel = 0
-until variavel < 10
-  puts 'Olá mundo'
-  variavel += 1
-end
