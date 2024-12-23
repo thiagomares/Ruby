@@ -18,7 +18,7 @@ class Teste
 end
 
 
-# Instance eval
+# Instance eval -- Isso aqui nos estamos creiando um método em runtime
 Teste.instance_eval  do
     def outro_teste
         puts "outro teste"
